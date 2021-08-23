@@ -78,10 +78,7 @@
 
 
 
-   .first-page-button{
-          display: none;
-    }
-
+  
     /*my project*/
 
     .after-click{
@@ -158,8 +155,9 @@
         font-weight: bold;;
     }
 
-    .my-projects p{
+    #my-projects p{
         padding:15px;
+        margin:0 20px;
     }
     
     

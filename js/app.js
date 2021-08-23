@@ -4,16 +4,16 @@
 const imgList=document.querySelector('.project-img-list');
 const imgArr=document.getElementsByClassName('project-img');
  imgList.style.width = 640*imgArr.length+"px";
-const navDiv = document.getElementById("navDiv");
- const outer = document.getElementsByClassName("outer");
+ const navDiv = document.getElementById("navDiv");
+const outer = document.getElementsByClassName("outer");
 
  navDiv.style.left = (outer.offsetWidth - navDiv.offsetWidth)/2 + "px";
  
 
 
- const index = 0;
+  var index = 0;
 
-const allA = document.querySelectorAll("#navDiv a");
+ const allA = document.querySelectorAll("#navDiv a");
 
  allA[index].style.backgroundColor = "black";
  
@@ -43,6 +43,6 @@ const allA = document.querySelectorAll("#navDiv a");
      }
      allA[index].style.backgroundColor = "black";
  }
-
+ 
 
 
